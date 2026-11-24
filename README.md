@@ -23,15 +23,6 @@ This is a React + Vite frontend starter based on publicly visible Campx website 
 
 The original public site has more routes and detailed page-specific interactions than can be faithfully recovered from a URL-only crawl. This starter includes page structure and functional frontend prototypes, not the complete original site. The demo form does not submit to a server. ROI math is illustrative and not Campx's official calculator. Some original sections, visual assets, page animations, menu behavior, legal copy, articles, downloadable resources, and responsive details still need manual verification and refinement.
 
-## Recommended next steps in OpenCode
-
-1. Inspect every original URL and capture desktop + mobile screenshots at matching viewport sizes.
-2. Build a route inventory from the original site's sitemap and every internal navigation/footer link. Replace the placeholder routes with dedicated page components.
-3. Inspect original page interactions: sticky header, scroll-triggered transitions, system carousel, configurator behavior, FAQ, calculator formulas, forms, cookie preferences and any tour/demo flows.
-4. Recreate visuals with original-created SVG/CSS illustrations. Do not hotlink or copy proprietary images/logos without permission.
-5. Compare screenshots side-by-side at 1440px, 1024px, 768px and 390px; iterate section by section.
-6. Only add Express/MongoDB if the project needs persisted demo enquiries, CMS content, authentication or admin tools. The marketing site itself can remain frontend-only.
-
 ## Stack
 
 React, Vite, React Router, Tailwind CSS dependency/configuration, custom CSS, Lucide React, Framer Motion dependency ready for animation work.
